@@ -21,7 +21,7 @@ export default function Home({ navigation }) {
                     return (
                         <Pressable
                             onPress={() => {
-                                navigation.navigate("HomeDetails");
+                                navigation.navigate("HomeDetails", {item: item});
                             }}
                             style={styles.item}
                         >

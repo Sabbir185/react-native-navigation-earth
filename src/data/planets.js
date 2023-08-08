@@ -19,6 +19,8 @@ export const PLANET_LIST = [
 
     wikiLink: "https://en.wikipedia.org/wiki/Mercury",
 
+    earthImg: "https://images.pexels.com/photos/8162293/pexels-photo-8162293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
     structure:
 
       "Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core. The planet's density is the second highest in the Solar System at 5.427 g/cm3 , only slightly less than Earth's density.",
@@ -48,6 +50,8 @@ export const PLANET_LIST = [
     avgTemp: "471°c",
 
     wikiLink: "https://en.wikipedia.org/wiki/Venus",
+
+    earthImg: "https://images.pexels.com/photos/8523559/pexels-photo-8523559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     structure:
 
@@ -79,6 +83,8 @@ export const PLANET_LIST = [
 
     wikiLink: "https://en.wikipedia.org/wiki/Earth",
 
+    earthImg: "https://images.pexels.com/photos/7179378/pexels-photo-7179378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
     structure:
 
       "Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle.",
@@ -108,6 +114,9 @@ export const PLANET_LIST = [
     avgTemp: "−28°c",
 
     wikiLink: "https://en.wikipedia.org/wiki/Mars",
+
+    earthImg: "https://images.pexels.com/photos/7179378/pexels-photo-7179378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
 
     structure:
 
@@ -139,6 +148,9 @@ export const PLANET_LIST = [
 
     wikiLink: "https://en.wikipedia.org/wiki/Jupiter",
 
+    earthImg: "https://images.pexels.com/photos/7179372/pexels-photo-7179372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
+
     structure:
 
       "When the Juno arrived in 2016, it found that Jupiter has a very diffuse core that mixes into its mantle. A possible cause is an impact from a planet of about ten Earth masses a few million years after Jupiter's formation, which would have disrupted an originally solid Jovian core.",
@@ -169,6 +181,9 @@ export const PLANET_LIST = [
 
     wikiLink: "https://en.wikipedia.org/wiki/Saturn",
 
+    earthImg: "https://images.pexels.com/photos/1472999/pexels-photo-1472999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
+
     structure:
 
       "Despite consisting mostly of hydrogen and helium, most of Saturn's mass is not in the gas phase, because hydrogen becomes a non-ideal liquid when the density is above 0.01 g/cm3, which is reached at a radius containing 99.9% of Saturn's mass.",
@@ -198,6 +213,8 @@ export const PLANET_LIST = [
     avgTemp: "-195°c",
 
     wikiLink: "https://en.wikipedia.org/wiki/Uranus",
+    earthImg: "https://images.pexels.com/photos/2286016/pexels-photo-2286016.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+
 
     structure:
 
@@ -228,6 +245,7 @@ export const PLANET_LIST = [
     avgTemp: "-201°c",
 
     wikiLink: "https://en.wikipedia.org/wiki/Neptune",
+    earthImg: "https://images.pexels.com/photos/1643457/pexels-photo-1643457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
     structure:
 
