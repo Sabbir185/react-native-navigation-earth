@@ -8,7 +8,7 @@ import { typography } from '../theme/typography'
 import PlanetInfo from '../components/info'
 
 export default function HomeDetails({ route }) {
-    const { name, description, avgTemp, radius, revolutionTime, rotationTime, earthImg } = route?.params?.item;
+    const { name, description, avgTemp, radius, revolutionTime, rotationTime, earthImg, wikiLink } = route?.params?.item;
 
     return (
         <SafeAreaView style={{ flex: 1, backgroundColor: colors.black, paddingTop: 16 }}>
@@ -24,10 +24,12 @@ export default function HomeDetails({ route }) {
                 <View>
                     <Text style={styles.description}>{description}</Text>
                 </View>
-                <Text style={styles.linking}>
-                    More <Text onPress={()=> console.log('hi')} >WikiLink</Text>
-                </Text>
-                <View style={{padding: spacing[6]}}>
+                <Pressable onPress={() => Linking.openURL(wikiLink)}>
+                    <Text style={styles.linking}>
+                        More <Text style={styles.wiki}>WikiLink</Text>
+                    </Text>
+                </Pressable>
+                <View style={{ padding: spacing[6] }}>
                     <PlanetInfo label={'Average Temperature'} value={avgTemp} />
                     <PlanetInfo label={'Radius'} value={radius} />
                     <PlanetInfo label={'Revolution Time'} value={revolutionTime} />
@@ -40,8 +42,9 @@ export default function HomeDetails({ route }) {
 
 const styles = StyleSheet.create({
     imageContainer: { height: 250, width: '100%', flexDirection: 'row', justifyContent: 'center', marginTop: 14 },
-    image: { height: 230, width: 230, borderRadius: 230/2 },
+    image: { height: 230, width: 230, borderRadius: 230 / 2 },
     title: { color: "white", textAlign: 'center', marginTop: spacing[1], textTransform: 'capitalize' },
     description: { fontFamily: typography.primary, lineHeight: 20, textAlign: 'justify', padding: spacing[6] },
-    linking: {textAlign: 'center'}
+    linking: { textAlign: 'center' },
+    wiki: {textDecorationLine: 'underline', fontWeight: 'bold'}
 })
